@@ -15,3 +15,5 @@ vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
 projects=cd C:\Users\Ryan\Documents\Projects\
 cmder-aliases=cd %CMDER_ROOT%\config
+ssh-school=ssh rshee@unix.ucsc.edu  
+sftp-school=sftp rshee@unix.ucsc.edu  
