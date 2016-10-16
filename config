@@ -18,7 +18,7 @@ bindsym Mod1+Return exec i3-sensible-terminal
 bindsym Mod1+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym Mod1+d exec dmenu_run
+bindsym Mod1+d exec rofi -show run -lines 3 -eh 2 -width 50 -padding 10 -opacity "85"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -146,11 +146,9 @@ bar {
         separator_symbol "//"
 
         #position top #move bar to top if you wanna
-
-        colors {
-            #separator #6666663
-        }
 }
+
+hide_edge_borders both
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 1 +2%
@@ -160,3 +158,9 @@ bindsym XF86AudioMute exec pactl set-sink-mute 1 toggle
 # Brightness 
 bindsym XF86MonBrightnessDown exec "xbacklight -dec 5"
 bindsym XF86MonBrightnessUp exec "xbacklight -inc 5"
+
+# feh
+exec_always feh --bg-scale ~/Pictures/Wallpapers/4K_Ghosts_II.jpg
+
+# compton
+exec compton -f
