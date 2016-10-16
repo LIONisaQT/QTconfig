@@ -143,6 +143,13 @@ bindsym Mod1+r mode "resize"
 bar {
         status_command i3status
         tray_output primary
+        separator_symbol "//"
+
+        #position top #move bar to top if you wanna
+
+        colors {
+            #separator #6666663
+        }
 }
 
 # Pulse Audio controls
