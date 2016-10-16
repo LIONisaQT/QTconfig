@@ -148,6 +148,19 @@ bar {
         #position top #move bar to top if you wanna
 }
 
+set $bg-color               #2f343f
+set $inactive-bg-color      #2f343f
+set $text-color             #f3f4f5
+set $inactive-text-color    #676e7d
+set $urgent-bg-color        #e53935
+
+# Window colors
+#                       border              background          text
+client.focused          $bg-color           $bg-color           $text-color
+client.unfocused        $inactive-bg-color  $bg-color           $inactive-text-color
+client.focused_inactive $inactive-bg-color  $inactive-bg-color  $inactive-text-color
+client.urgent           $urgent-bg-color    $urgent-bg-color    $text-color
+
 hide_edge_borders both
 
 # Pulse Audio controls
