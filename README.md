@@ -2,13 +2,13 @@
 
 ## Stuff for Linux
 ### all that bash stuff
-#### .bashrc
+  #### .bashrc
 slightly edited so that it runs .bash_welcome
-#### .bash_aliases
+  #### .bash_aliases
 my setup only
-#### .bash_welcome
+  #### .bash_welcome
 welcome message, edit to fit whatever is needed (e.g. reminders)
-#### .bash_todo
+  #### .bash_todo
 simple to-do list, could use some work
 ### config
 i3 config (found in ```~/.i3/```)
