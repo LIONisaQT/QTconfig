@@ -1,6 +1,6 @@
 # QTconfig
 
-## <dt>Stuff for Linux</dt>
+## Stuff for Linux
 ### all that bash stuff
 #### .bashrc
 slightly edited so that it runs .bash_welcome
