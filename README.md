@@ -1,6 +1,15 @@
 # QTconfig
 
 ## Stuff for Linux
+### all that bash stuff
+#### .bashrc
+slightly edited so that it runs .bash_welcome
+#### .bash_aliases
+my setup only
+#### .bash_welcome
+welcome message, edit to fit whatever is needed (e.g. reminders)
+#### .bash_todo
+simple to-do list, could use some work
 ### config
 i3 config (found in ```~/.i3/```)
 ### default.pa
