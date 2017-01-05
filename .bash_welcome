@@ -1,0 +1,3 @@
+echo "Hello!
+Type 'alias-list' to show all current aliases.
+Type 'to-do' to show all current items on the to-do list."
