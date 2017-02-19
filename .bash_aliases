@@ -9,6 +9,8 @@ alias alias-list='echo "List of commands:
 - edit-aliases:     opens .bash_aliases in Sublime Text.
 - android-studio:   opens Android Studio.
 - projects:         goes to the projects folder.
+- pico8:            opens PICO-8.
+- restart-wifi      restarts wifi because fookin Realtek
 
 Set more aliases at .bash_aliases with edit-aliases!"'
 alias brightness='cd /sys/class/backlight/intel_backlight;sudo su;'
@@ -21,3 +23,5 @@ alias edit-aliases='sudo subl .bash_aliases'
 alias to-do='. ~/.bash_todo'
 alias android-studio='cd /usr/local/android-studio/bin;./studio.sh'
 alias projects='cd ~/Documents/projects'
+alias pico8='cd /usr/local/pico-8;./pico8'
+alias restart-wifi='sudo service network-manager restart'
