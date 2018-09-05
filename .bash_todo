@@ -1,7 +1,0 @@
-echo "Current to-do list:
-- Make more aliases.
-- Make rofi look better.
-- Fix xbacklight.
-- Make shutdown and sleep commands.
-
-Add items to the to-do list with 'edit-todo'!"
