@@ -1,5 +1,8 @@
 # QTconfig
 
+### zsh config
+*oh-my-zsh config (found in ```~/```)*
+
 ### config
 *i3 config (found in ```~/.i3/```)*
 
